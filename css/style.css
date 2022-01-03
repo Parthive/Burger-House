@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@600&display=swap');
+
+/* Css reset  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* xx css reset xx */
+
+/* Hero-area */
+
+.express h3 {
+    margin-left: 777px;
+    font-size: 17px;
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #3d2514;
+}
+.hero-area{
+    background: url(../images/bg.jpg);
+    width: 100%;
+    height: 670px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* xx.......hero-area......xx */
+/* ......Menustyle..... */
+.menustyle li a {
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+/* ...xx...Menustyle...xx..  */
+
+
+/* ..............banner-details......... */
+.banner-details h3{
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    font-weight: normal;
+    font-size: 24px;
+}
+.banner-details h1{
+    font-family:  'Alfa Slab One', cursive;
+    color: #3d2514;
+    font-weight: normal;
+    font-size: 114px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 5px white;
+}
+.banner-details h2{
+    font-family:  'Alfa Slab One', cursive;
+    color: #3d2514;
+    font-weight: normal;
+    font-size: 56px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 5px white;
+}
+.banner-details-wraper{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image .food-price{
+    background: url('../images/offer-bg.png');
+    background-repeat: no-repeat;
+    width: 174px;
+    height: 174px;
+    text-align: center;
+    padding-top: 45px;
+    position: absolute;
+    bottom: 0;
+}
+.banner-image{
+    position: relative;
+    margin-left: 40px;
+    margin-top: 55px;
+}
+.banner-image .food-price h3{
+    color:  white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.banner-image .food-price sub{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+}
+.banner-image .food-price .only{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 33px;
+    letter-spacing: 5px;
+}
+.row.burger-week {
+    margin-top: 40px;
+}
+
+/* .......xx.......banner-details....xx..... */
+/* .....Buger-section.....  */
+.burger-section{
+    padding: 60px 0;
+}
+.burger-section .big-burger{
+    background: url('../images/banner1.png') no-repeat center center;
+    width: 596px;
+    height: 420px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #ffff;
+}
+.burger-section .big-burger h3, .small-burger h3{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffff;
+}
+.burger-section .big-burger h2, .small-burger h2{
+    line-height: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #ffff;
+}
+.burger-section .small-burger{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    padding-top:20px ;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.burger-section .small-burger:first-child{
+    background: url('../images/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.burger-section .small-burger:last-child{
+    background: url('../images/banner3.png');
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* ..xx...Buger-section...xx..  */
+/* ...Chose and Enjoy section............  */
+.chose-enjoy-title{
+    text-align: center;
+}
+.padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.chose-enjoy-title h4 {
+    font-family: 'Bebas Neue',cursive;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    background: #ffc045;
+    padding: 7px 31px;
+    color: #3d2514;
+}
+.chose-enjoy-title h3 {
+    font-family: 'Alfa Slab One',cursive;
+    font-size: 50px;
+    color: #3d2514;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.single-burger{
+    text-align: center;
+}
+.single-burger h2{
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 38px;
+    margin-left: 67px;
+}
+.single-burger p{
+    font-family: 'Montserrat',cursive;
+    font-size: 17px;
+    color: #3d2514;
+    margin-bottom: 40px;
+    margin-left: 49px;
+}
+.single-burger a:hover{
+    text-decoration: none;
+    color: #ffff !important; 
+}
+.single-burger a{
+    font-family: 'Alfa Slab One',cursive;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-top: 20px;
+    color: #ffff;
+    background-color:red;
+    margin-left: 40px;
+}
+/* .....xx...Chose and Enjoy section.......xx.....  */
+
+
+/* .....Upcoming Events ..........  */
+.upcoming-events{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.row.evetns-wraper {
+    background: #ffff;
+    padding: 20px;
+    box-shadow: 10px 2px 41px 1px rgb(0 0 0 / 24%);
+    border-radius: 8px;
+}
+
+.row.evetns-wraper img {
+    width: 100%;
+}
+.event-slider-content h2 {
+    color: #3d3d3d;
+    font-family: 'Bebas Neue',cursive;
+    font-size: 29px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.event-slider-content h3 {
+    color: #3d2514;
+    font-family: 'Alfa Slab One',cursive;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.event-slider-content p {
+    color: #3d3d3d;
+    font-family: 'Montserrat',cursive;
+    font-size: 21px;
+    padding-top: 20px;
+}
+.resarvation-title h2 {
+    font-family: 'Alfa Slab One';
+    color: #3d2514;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+.resarvation-title h3 {
+    font-family: 'Bebas Neue';
+    color: #3d2514;
+    font-size: 29px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.reservation-form input {
+    border: 1px solid #bebebe;
+    font-family: 'Bebas Neue';
+    font-size: 21px;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    padding-left: 20px;
+    height: 65px;
+    margin-right: 30px;
+    width: 40%;
+    outline: none;
+    margin-bottom: 20px;
+}
+button.find-btn {
+    background: #bf2222;
+    font-family: 'Alfa Slab One';
+    font-size: 21px;
+    padding: 16px 125px;
+    color: #fff;
+    border: none;
+}
+section.reservation {
+    padding-bottom: 50px;
+}
+.reservation-form {
+    margin-left: 145px;
+}
+/* ...xx..Upcoming Events ......xx....  */
+
+/* ....footer area ..... */
+.footer-area{
+    background: url('../images/footer_bg.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center center ;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.footer-widgets p{
+    color: #ffff;
+    font-family: 'Montserrat';
+    font-size: 21px;
+    padding-top: 50px;
+}
+.address-list ul {
+    padding-top: 130px;
+    list-style: none;
+    color: #ffff;
+}
+
+.address-list ul li {
+    padding-bottom: 15px;
+}
+
+.address-list ul li span {
+    font-family: 'Bebas Neue';
+    font-size: 21px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.address-list {
+    margin-left: 130px;
+}
+.social-icon {
+    float: right;
+}
+
+.social-icon a i {
+    background: #fff;
+    color: #000;
+    width:  30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 100%;
+    margin-right: 7px;
+}
+.social-icon a:hover i:first-child{
+    color: #8a3ab9;
+}
+.social-icon a:hover i:nth-child(2){
+    color: #3b5998;
+}
+.copy-right p {
+    clear: #ffff;
+    font-family: 'Bebas Neue';
+    color: #ffff;
+    font-size: 17px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+/* ..xx..footer area ...xx.. */

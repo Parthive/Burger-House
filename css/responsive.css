@@ -1,0 +1,84 @@
+/**
+ * /* Extra large devices (large desktops, 1200px and up)
+ *
+ * @format
+ */
+
+ @media (min-width: 1200px) {}
+
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+    
+    
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     
+    section.hero-area{
+        height: auto !important;
+        width: 105vw;
+    }
+    .express h3 {
+        margin-left: 21px;
+    }
+    .row.burger-week{
+        text-align: center;
+    }
+    .banner-details-wraper{
+        height: auto;
+        margin-top: 20px;
+    }
+    .banner-image {
+        margin-bottom: 40px;
+        margin-left: 47px;
+    }
+    .navbar-light .navbar-toggler{
+        border: none;
+    }
+    div#navbarSupportedContent {
+        text-align: center;
+        background-color: #ffc542;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* width: 100%; */
+        transition: .3s;
+    }
+    .burger-section .big-burger{
+        margin-left: 85px;
+        margin-bottom: 30px;
+    }
+    .burger-section .small-burger:first-child{
+        margin-left: 45px;
+    }
+    .burger-section .small-burger {
+        margin-left: 45px;
+    }
+
+ }
+ 
+
+ 
+ /* All Mobile Devices */
+ @media (min-width: 320px) and (max-width: 991.98px) {
+     
+ }
+ 
+ 
+ 
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {}
+ 
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+     
+ }
+ 
+ /*  */
+ @media (min-width: 320px) and (max-width: 575.98px) {
+ 
+ }
+ 
+ @media (min-width: 320px) and (max-width: 375px) {}
